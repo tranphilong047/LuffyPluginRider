@@ -1,0 +1,42 @@
+<idea-plugin>
+  <id>some.awesome</id>
+  <name>Luffy Progress Bar</name>
+  <version>0.0.1</version>
+  <idea-version since-build="192"/>
+  <vendor email="tranphilong047@gmail.com">PhiLongTran</vendor>
+
+  <description><![CDATA[
+      Pretty progress bars with Luffy run for IJ based IDEs.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <em>1.0 Creation of the Luffy run Progress Bar Project</em><br>
+      <em>1.1 Fix Plugin Icon</em><br>
+      <em>1.2 Fix wind after </em><br>
+      <em>1.3 Fix Path to resources + Improving resources loading</em><br>
+      <em>1.4 Fix description</em><br>
+      <em>1.5 Fix Luffy and Shell icon rendering issues. Google.com for helping me</em><br>
+      <em>1.6 Usage of new Jetbrains API. google for helping me</em><br>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+  <application-components>
+    <component>
+      <implementation-class>LuffyApplicationComponent</implementation-class>
+    </component>
+    <listener class="ProgressBarLafManagerListener"
+              topic="com.intellij.ide.ui.LafManagerListener" />
+  </application-components>
+</idea-plugin>

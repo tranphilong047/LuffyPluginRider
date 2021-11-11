@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 54" width="33" height="54">
+	<title>luffy</title>
+	<defs>
+		<image  width="27" height="53" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAA1BAMAAABCXI0gAAAAAXNSR0IB2cksfwAAADBQTFRFAAAACAgItXMA54wA//cAzr0AjFIA////1tbW97VKnIQA/96cWlpahAAAxiEAnJycfDMwAgAAABB0Uk5TAP///////////////////8BQi0MAAAGISURBVHicdZIhb8JAFMfvfYO+lnUr14mGZGbqmCJkbjNLEEuGqQOS+alicViGIqiKGYJpmiwhzUR9DZlu1WwvwU3uDu7aIvZE7355//fevb5HiDQgBpDaDASjJkBsMkoj54hNLaJhnDmbXlO6a62FnsbWMyJjXYXwiLY1xYWKbfmhQ9/WCqG1SeltkMRau0W7lyQjVfQpFJnfX5nCoUDTUVqCvkCrqoofIV6Xq5EW+1tcFt9fqixcbKxdUd5rDH0nLnhuq+B2m0Y5H5hVQ3QhvBoJ9Bnnpe1pXCPng32FK4F5jTHyMt/fqGArgpL/7McKnQgK4bYU0gg43+eW6piy43+3mSq7wyxzXewc1ZDEkSswnSj8ZK4Qp6dnQm/puhm6qacnlgmsZiR6ylKRrcIsw4b3MghmMJ/PFF4F0wP8zg9aPPYMYo+q2KW4mbpfAjuJ7B+05Lygq2OdSEruNNIzhP5CfjunoYJYKnlMvGM2ihEj9daapidf0N4IMwi8PAxDotb2dNSL/geBf3gP08LhCwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer 1" href="#img1" x="3" y="1" />
+</svg>
